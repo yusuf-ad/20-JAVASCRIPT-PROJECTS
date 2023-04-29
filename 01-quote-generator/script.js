@@ -58,7 +58,7 @@ async function getQuotes() {
     newQuote();
   } catch (error) {
     // Catch Error Here
-    console.error(error);
+    console.error("Whoops, no quote", error);
   }
 }
 
