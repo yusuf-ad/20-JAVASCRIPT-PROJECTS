@@ -26,7 +26,7 @@ const newQuote = async function () {
   await getQuote();
 
   const quote = quoteData;
-  preQuote[0] = quote;
+  // preQuote[0] = quote;
 
   fromText.textContent = quote.anime;
   quoteChar.textContent = quote.character;
