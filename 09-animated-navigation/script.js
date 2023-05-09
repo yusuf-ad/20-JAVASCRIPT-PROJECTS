@@ -1,5 +1,5 @@
 "use strict";
-// JavaScript is the reaction of data change on a Web page.
+// ! JavaScript is the reaction of data change on a Web page.
 
 const menuBars = document.getElementById("menu-bars");
 const overlay = document.getElementById("overlay");
